@@ -1,0 +1,457 @@
+/*========================================= CSS Reset ====================================================================================*/
+
+
+html, body, h1, h2, h3, h4, h5, h6, p, a, div, ul, li, blockquote {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 100%;
+    font-weight: 400;
+    color: #666;
+}
+
+/*========================================= general styles ====================================================================================*/
+
+html {
+    background: #FAF7ED;
+}
+#wrapper {
+
+    margin: 0 auto;
+    background: #fff;
+    position: relative;
+}
+h1, h2, h3, h4 {
+    text-transform: capitalize;
+    font-weight: 700;
+    padding: 40px 0 5px;
+}
+h1 {
+    font-size: 2em;
+}
+h2 {
+    font-size: 1.6em;
+}
+h3 {
+    font-size: 1.15em;
+    padding: 60px 0 5px;
+}
+h4 {
+    font-size: 1.05em;
+}
+
+h5 {
+ 	font-weight: 700;
+ text-transform: capitalize;
+	font-size: 1em;
+	margin: 0 10px 10px 0;
+padding: 0
+
+}
+p {
+    padding: 10px 0;
+    font-size: .9em;
+    line-height: 1.5em;
+    color: #666;
+}
+b {
+    font-weight: 700;
+    color: #333;
+}
+small {
+   font-size: .7em;
+}
+hr {
+    border: 1px solid #ddd;
+}
+
+#map {
+        height: 405px;
+    width: 750px;
+    z-index: 10;
+	margin: auto;
+	margin-top: 100px;
+      }
+/*========================================= header/nav ====================================================================================*/
+
+header {
+    width: 100%;
+    height: 650px;
+    position: relative;
+    background: #fff;
+}
+header .logo {
+    width: 100%;
+    height: 650px;
+    background: url('../images/holiday2013_front.jpg') no-repeat;
+    position: fixed;
+}
+header .logoo {
+    width: 262px;
+    height: 112px;
+    background: url('../images/parallaxLogoSm.png') no-repeat;
+    position: absolute;
+    top: 21px;
+    left: 57px;
+}
+#titl {
+    z-index: 3;
+    font-size: 2em;
+    margin-top:150px;
+    margin-left: 550px;
+    text-align: center;
+    width: 700px;
+}
+#tit{
+    font-family: 'Tangerine', serif;
+        font-size: 70px;
+    color:#C59D5F;
+     text-shadow: 1px 1px 1px #aaa;
+    margin-bottom: -80px;
+}
+#change{
+    color:white;
+    text-align: center;
+
+    }
+nav {
+    width: 500px;
+    height: 50px;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    padding-top: 20px;
+}
+nav ul {
+    width: 590px;
+    position:relative
+    right: 0;
+    align-items: center;
+    bottom: 0;
+    align-self: center;
+}
+nav ul li {
+
+    float: left;
+    list-style: none;
+}
+nav ul li:last-child {
+    border-right: none;
+}
+nav ul li a:link,
+nav ul li a:visited {
+    width: 140px;
+    padding: 6px 0;
+    color: #fff;
+    display: block;
+    background-color: none;
+    font-size: .8em;
+    text-align: center;
+    text-decoration:inherit;
+}
+nav ul li:hover a{
+      color: #ef3e36;
+      transition: background .75s
+}
+nav ul li:hover .current{
+      color: white;
+      transition: background .75s
+}
+/*
+nav ul li a:active a {
+    color: #ef3e36;
+    transition: background .75s
+}*/
+nav ul li a.current {
+    border-bottom: solid 2px white;
+    cursor: default;
+}
+#nav{
+    width:100%;
+    height: 90px;
+    position: absolute;
+    z-index: 15;
+    position: fixed;
+}
+
+/*========================================= featureImage ====================================================================================*/
+
+.featureImageText {
+    width: 821px;
+    height: 73px;
+    margin-top: -6px;
+
+    float: right;
+}
+
+/*========================================= main ====================================================================================*/
+
+main {
+
+    width: 100%;
+    margin: 0 auto;
+
+}/*
+main h1:first-child,
+main h2:first-child {
+    padding-top: 0;
+}
+main li,
+main ul {
+    padding: 10px 0;
+    font-size: .9em;
+    line-height: 1.5em;
+    color: #666;
+}
+main li {
+    margin: 0 0 0 25px;
+}
+#map {
+    border: 1px solid #444 ;
+    margin-top: 10px;
+    margin-bottom:  10px;
+}
+.infoBox {
+    width: 780px;
+    margin: 40px auto;
+    padding: 25px 30px 30px;
+    background: #f1f1f1;
+    overflow: auto;
+}
+.infoBox h3 {
+    margin: 0 0 3px;
+    padding: 0 0 4px;
+    width: 400px;
+    border-bottom: 1px solid #ccc;
+}
+.infoBox p {
+    width: 380px;
+}
+.infoBox a:link, .infoBox a:visited {
+    color: #525252;
+}
+.infoBox a:hover, .infoBox a:active {
+    color: #ef3e36;
+    transition: color .5s
+}
+*/
+/*========================================= table ====================================================================================*/
+/*
+table {
+    width: 100%;
+    margin: 10px 0;
+    border: 1px solid #939598;
+    border-collapse: collapse;
+    background: #f9f9f9;
+}
+th {
+    padding: 5px 8px 8px;
+    background-color: #939598;
+    border-right: 1px solid #ccc;
+    color: #fff;
+    font-size: .9em;
+    font-weight: 700;
+    text-align: left;
+}
+td {
+    padding: 10px 8px;
+    border: 1px solid #ccc;
+    font-size: .8em;
+}
+.even {
+    background: #eee;
+}
+
+/*========================================= form ====================================================================================*/
+/*
+form {
+    width: 960;
+    margin: 10px 0;
+    padding: 5px 20px 10px;
+    border: 1px solid #939598;
+    background: #f9f9f9;
+}
+label {
+    color: #666;
+    font-size: .9em;
+    font-weight: 700;
+    text-align: left;
+}
+[type="text"], [name="text_area"] {
+    width: 300px;
+    padding: 5px;
+    background: #eee;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: #333;
+}
+[name="text_area"] {
+    height: 150px;
+    line-height: 1.2em;
+}
+.button {
+    margin: 20px 30px 0 0;
+    padding: 6px 30px;
+    color: #fff;
+    font-size: .9em;
+    font-weight: 700;
+    background-color: #666;
+    cursor: pointer;
+    border: none;
+    text-decoration: none;
+}
+.button:hover {
+    background: #ef3e36;
+    transition: background .75s
+}
+*/
+/*========================================= footer ====================================================================================*/
+
+
+#footer {
+    width: 100%;
+    height: 200px;
+    background-color: black;
+           position: relative;
+z-index: 5;
+   margin-top: 211px;
+}
+
+#footer p{
+    text-align: center;
+
+}
+fieldset{
+    width: 400px;
+    margin: auto;
+    color: aliceblue;
+
+
+}
+input {   background-color: gainsboro;
+width: 300px;}
+.submit {
+    width: 75px;
+}
+
+/*-------------------------------------------my edition-------------------------------------*/
+main #logo2 {
+    background-color: #F7EEF9;
+    height: 520px;
+    width: 100%;
+    position: relative;
+z-index: 5;
+      border-top: 5px solid 	#DEB887;
+     border-bottom: 5px solid 	#DEB887;
+
+}
+#logo2text {
+    float: left;
+    text-align: center;
+    display: block;
+    width: 700px;
+    height: 450px;
+    font-size: 1.8em;
+    padding-top: 80px;
+    font-style: italic;
+
+}
+ #Second {
+    width: 470px;
+    height: 375px;
+    background: url('../images/restaurant-img28.jpg') no-repeat;
+
+margin-left: 800px;
+     z-index: 1;
+       margin-bottom: 50px;
+     padding-top: 145px;
+
+
+}
+main .logo3 {
+    width: 100%;
+    height: 700px;
+
+        position: absolute;
+z-index: 5;
+}
+#titl{
+    width:300px;
+    height:200px;
+    background-color: none;
+    display: inline-block;
+    z-index: 1;
+    font-size: 3em;
+   align-self: center;
+    }
+main #logo4 {margin-top: 550px;
+    background-color: #F7EEF9;
+    height: 450px;
+    width: 100%;
+    position: relative;
+z-index: 5;
+    border-top: 5px solid 	#DEB887;
+     border-bottom: 5px solid 	#DEB887;
+}
+ #third {
+
+    background: url('../images/restaurant-img27.jpg') no-repeat;
+display: block;
+
+     z-index: 1;
+
+
+
+  /*  top: 21px;
+    left: 57px;*/
+}
+#logo4text {
+    float: right;
+    text-align: center;
+    display: block;
+    width: 600px;
+    height: 450px;
+
+    padding-top: 47px;
+    font-size: 1.8em;
+font-style: italic;
+
+}
+#slider {padding-top: 6px;
+    padding-left: 30px;
+  width: 600px;
+
+    float: left;
+    position: relative;
+}
+
+
+
+ /*----------------------------logo5----------------*/
+main .logo5 {
+    width: 100%;
+    height: 400px;
+
+        position: relative;
+z-index: 5;
+}
+
+ main .logo6 {
+    width: 100%;
+
+    height: 200px;
+   background-color:dimgray;
+        position: absolute;
+z-index: 5;
+     border-top-style: dashed;
+    border-top: 5px beige dashed;
+      border-bottom: 5px beige dashed;
+}
+.logo6 p {padding-top: 18px;
+    font-size: 1.2em;
+    color: aliceblue;
+    text-align: center;
+    padding-left: 300px;
+    width: 750px;
+}

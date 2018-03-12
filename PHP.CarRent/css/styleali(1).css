@@ -1,0 +1,31 @@
+#section1, #section2, #section3 {
+	padding: 45px;
+}
+#section1 {
+	background: #4286f4;
+}
+#section2 {
+	background: #f44141;
+}
+#section3 {
+	background: #f4cd41;
+}
+input {
+	height: 30px;
+}
+nav {
+	margin-bottom: 0;
+}
+body {
+	overflow-x:hidden;
+}
+iframe {
+	overflow:hidden;
+}
+html{
+  overflow-y: scroll;
+  overflow-x: auto;
+}
+body{
+  padding-right: 0 !important;
+}
